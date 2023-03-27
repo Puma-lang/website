@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <title>Portafolio</title>
+        <link rel="stylesheet" href="estilo.css">
+        </head>
+        <body>
+        <!---Encabezado-->
+        <div class="contenedor-header">
+         <header>
+          <div class="logo">
+            <a href="#">Ing.Antonio Guaman</a>
+             </div>
+              <nav id="nav">
+               <ul>
+                 <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                 <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                 <li><a href="#skills"onclick="seleccionar()">Skill</a></li>
+                 <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                 <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                 <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+               </ul>
+               </nav>
+               <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+
+                    </div>
+                </header>
+            </div>
+            <!---Seccion Iniciio-->
+            <section id="inicio" class="inicio">
+              <div class="contenido-banner">
+                <div class="contenedor-img">
+                  <img src="imagenes/luis.jpeg" alt="">
+                </div>
+                <h1>Antonio Guaman</h1>
+                <h2>Ingeniero de Sistemas - Experto en desarrollo Web-Escritorio</h2>
+                <div class="redes">
+                    <a href="https:https://www.facebook.com/profile.php?id=100010073887476" target="_black"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_black"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_black"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.youtube.com/watch?v=ORQIKXZFqLE" target="_black"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </section>
+            <!---Dtaos Personales-->
+              <section id="sobremi" class="sobremi">
+                <div class="contenido-seccion">
+                  <h2>Sobre mi</h2>
+                  <p>
+                    <span>Hola soy Luis Antonio Guaman Zaruma.</span> Soy Ingeniero en Sistema me gradue en la Universidad Catolica de Cuenca,
+                    desarrollo paginas Web en Escritorio y Android
+                    soy una persona que me gusta mucho la responsabilidad y el trabajo en equipo vivo en la provincia de canar tengo 31 años 
+                    me distingo por ser una persona trabajadora.
+                  </p>
+                  <div class="fila">
+                    <!---Datos Personal-->
+                    <div class="col">
+                      <h3>Datos Personales</h3>
+                      <ul>
+                        <li>
+                          <strong>Cumpleaños</strong>
+                          03-05-1991
+                        </li>
+                        <li>
+                          <strong>Telefono</strong>
+                         0983756295
+                        </li>
+                        <li>
+                          <strong>Correo</strong>
+                        luis25eydan@gmail.com
+                        </li>
+                        <li>
+                          <strong>Direccion</strong>
+                        Chaglaban via la posta
+                        </li>
+                        <li>
+                          <strong>Estado</strong>
+                        Soltero
+                        </li>
+                        <li>
+                          <strong>Cargo</strong>
+                          <span>Desarrollador</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <!----Intereses-->
+                    <div class="col">
+                      <h3>Intereses</h3>
+                      <div class="contenido-intereses">
+                        <div class="interes">
+                          <i class="fa-solid fa-code"></i>
+                          <span>Programar</span>
+                        </div>
+                          <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Leer</span>
+                          </div>
+                          <div class="interes">
+                            <i class="fa-solid fa-database"></i>
+                            <span>Diseñar base de datos</span>
+                          </div>
+                          <div class="interes">
+                            <i class="fa-solid fa-wrench"></i>
+                            <span>Soporte Tecnico</span>
+                          </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <button>
+                 
+                    Descargar CV<a download="Prueba" class="fa-sharp fa-solid fa-download" href="Dowsland/Hoja.pdf"></a>
+                    <span class="overlay"></span>
+                  </button>
+                </div>
+              </section>
+              <section class="skills" id="skills">
+                <div class="contenido-seccion">
+                  <h2>Skill</h2>
+                  <div class="fila">
+                    <!----Proyectos-->
+                    <div class="col">
+                      <h3>Tecnologia y Personalidad</h3>
+                       <div class="skill">
+                        <span>Java Script</span>
+                        <div class="barra-skill">
+                          <div class="progreso script">
+                            <span>75%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                          <div class="progreso java">
+                            <span>90%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Android</span>
+                        <div class="barra-skill">
+                          <div class="progreso android">
+                            <span>75%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                          <div class="progreso angular">
+                            <span>75%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Postgres</span>
+                        <div class="barra-skill">
+                          <div class="progreso postgres">
+                            <span>90%</span>
+                          </div>
+                        </div>
+                       </div>
+                       
+                       <div class="skill">
+                        <span>Html && Css</span>
+                        <div class="barra-skill">
+                          <div class="progreso html">
+                            <span>80%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>MySQL</span>
+                        <div class="barra-skill">
+                          <div class="progreso mysql">
+                            <span>75%</span>
+                          </div>
+                        </div>
+                       </div>
+                       
+                       <div class="skill">
+                        <span>Soporte Tecnico</span>
+                        <div class="barra-skill">
+                          <div class="progreso soporte">
+                            <span>95%</span>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col">
+                      <h3>Habilidades</h3>
+                       <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Puntualidad</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Disponibilidad</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Humildad</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                       <div class="skill">
+                        <span>Honestidad</span>
+                        <div class="barra-skill">
+                          <div class="progreso javascript">
+                            <span>100%</span>
+                          </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+            <section id="curriculum" class="curriculum">
+              <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                  <div class="col izquierda">
+                    <h3>Estudios</h3>
+                    <div class="item izq">
+                      <h4>Arte y Multimedia</h4>
+                      <span class="casa">Universidad Catolica de Cuenca</span>
+                      <span class="fecha">2015-2021</span>
+                      <p>Hola mis estudios universitarios lo realize en la Universidad
+                        Catolica de Cuenca extencion Cañar y mis estudios secundarios lo realize en el
+                        Colegio Jose Peralta de la provincia de Cañar
+                      </p>
+                      <div class="conectori">
+                        <div class="circuloi"></div>
+                      </div>
+                    </div>
+                    <div class="item izq">
+                      <h4>Arte y Multimedia</h4>
+                      <span class="casa">Cisco</span>
+                      <span class="fecha">2015-2021</span>
+                      <p>Hola el presente certificado lo realize en cisco para experto en redes locales y externa, también presta el servicio de soluciones de red, su objetivo es conectar a todos y demostrar las cosas asombrosas que se pueden lograr con una visión clara del futuro.
+                      </p>
+                      <div class="conectori">
+                        <div class="circuloi"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col derecha">
+                    <h3>Experiencia de Trabajo</h3>
+                    <div class="item der">
+                      <h4>Arte y Multimedia</h4>
+                      <span class="casa">LTDA.Yuyay</span>
+                      <span class="fecha">2021-2022</span>
+                      <p>Hola mis estudios universitarios lo realize en la Universidad
+                        Catolica de Cuenca extencion Cañar y mis estudios secundarios lo realize en el
+                        Colegio Jose Peralta de la provincia de Cañar
+                      </p>
+                      <div class="conectori">
+                        <div class="circuloi"></div>
+                      </div>
+                    </div>
+                    <div class="item der">
+                      <h4>Arte y Multimedia</h4>
+                      <span class="casa">Consejo Nacional Electoral</span>
+                      <span class="fecha">2015-2021</span>
+                      <p>Hola el presente certificado lo realize en cisco para experto en redes locales y externa, también presta el servicio de soluciones de red, su objetivo es conectar a todos y demostrar las cosas asombrosas que se pueden lograr con una visión clara del futuro.
+                      </p>
+                      <div class="conectori">
+                        <div class="circuloi"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+
+              </div>
+            </section>
+            <section id="portafolio" class="portafolio">
+              <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <div class="galeria">
+                  <div class="proyecto">
+                    <img src="imagenes/Logo.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Login</p>
+                    </div>
+                  </div>
+                  <div class="proyecto">
+                    <img src="imagenes/panel.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Panel Principal</p>
+                    </div>
+                  </div>
+                  <div class="proyecto">
+                    <img src="imagenes/Producto.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Formulario de Producto</p>
+                    </div>
+                  </div>
+                  <div class="proyecto">
+                    <img src="imagenes/venta.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Formulario de Venta</p>
+                    </div>
+                  </div>
+                  <div class="proyecto">
+                    <img src="imagenes/Listado.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Formulario de Listas</p>
+                    </div>
+                  </div>
+                  <div class="proyecto">
+                    <img src="imagenes/detalle.jpeg">
+                    <div class="overlay">
+                      <h3>Sistema de Inventario</h3>
+                      <p>Detalle</p>
+                    </div>
+                  </div>
+                </div>
+                <!---Prueba-->
+                <div class="galerias">
+                  <div class="proyectos">
+                    <img src="imagenes/Foto.jpg">
+                    <div class="overlay">
+                      <h3>Trabajo en Grupo</h3>
+                      <p>Analisis de Datos</p>
+                    </div>
+                  </div>
+                  <div class="proyectos">
+                    <img src="imagenes/Grupo.jpg">
+                    <div class="overlay">
+                      <h3>Trabajo en Grupo</h3>
+                      <p>Analisis de Datos</p>
+                    </div>
+                  </div>
+                  <div class="proyectos">
+                    <img src="imagenes/Amigos.jpg">
+                    <div class="overlay">
+                      <h3>Trabajo en Grupo</h3>
+                      <p>Analisi de Datos</p>
+                    </div>
+                  </div>
+                  <div class="proyectos">
+                    <img src="imagenes/Aventura.jpg">
+                    <div class="overlay">
+                      <h3>Fotografia</h3>
+                      <p>Investigacion</p>
+                    </div>
+                  </div>
+                  <div class="proyectos">
+                    <img src="imagenes/antonio.jpg">
+                    <div class="overlay">
+                      <h3>Fotografia</h3>
+                      <p>Sustentacion de Tesis</p>
+                    </div>
+                  </div>
+                  <div class="proyectos">
+                    <img src="imagenes/luis.jpeg">
+                    <div class="overlay">
+                      <h3>Fotografia</h3>
+                      <p>Analis</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </section>
+            <section id="contacto" class="contacto">
+              <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                  <!---formulario-->
+                  <div class="col">
+                    <form action="https://formsubmit.co/luis25eydan@gmail.com " method="POST">
+                    <input type="text" name="nombre" placeholder="Tu nombre">
+                    <input type="text" name="Telefono" placeholder="Numero de Telefono">
+                    <input type="text" name="Correo" placeholder="Direccion de Correo">
+                    <input type="text" name="Asunto" placeholder="Asunto">
+                    <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                      Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                      <span class="overlay"></span>
+                    </button>
+                  </form>
+                  </div>
+                  <!--Mapa-->
+                  <div class="col">
+                    <img src="imagenes/mundo.jpg">
+                    <div class="info">
+                      <ul>
+                        <li>
+                          <i class="fa-solid fa-location-pin"></i>
+                          Chaglaban via la posta
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-mobile-screen"></i>
+                          Llamados al:0983756295
+                        </li>
+                        <li>
+                          <i class="fa-solid fa-envelope-circle-check"></i>
+                           Email:luis25eydan@gmail.com
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!---flooter-->
+            <footer>
+              <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+              </a>
+                <div class="redes">
+                  <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+              
+            </footer>
+            <script src="sript.js"></script>
+        </body>
+       
+</html>
